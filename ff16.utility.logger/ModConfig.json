@@ -1,0 +1,52 @@
+{
+  "ModId": "ff16.utility.logger",
+  "ModName": "FFXVI Logger Hooks",
+  "ModAuthor": "Nenkai",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Various loggers i.e File Access, Nex (mainly intended for aid in research/mod development)",
+  "ModDll": "ff16.utility.logger.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/ff16.utility.logger.dll",
+  "ModR2RManagedDll64": "x64/ff16.utility.logger.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "ff16.utility.logger.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "ffxvi.exe"
+  ],
+  "ProjectUrl": ""
+}
